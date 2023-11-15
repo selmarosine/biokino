@@ -3,7 +3,7 @@
 body {
   font-family: "Sometype Mono", monospace;
   color: white;
-  background-color: pink;
+  background-color: #5d59ff;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -16,7 +16,7 @@ body {
   background-color: #f5f5f5;
   height: 100vh;
   width: 100%;
-  background-image: url("assets/AC_FP_00071.png");
+  background-image: url("assets/hero.png");
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover;
@@ -87,19 +87,80 @@ button {
 .aktuellt {
   position: relative;
   background-color: #5d59ff;
-  height: 100vh;
   width: 100vw;
-  margin-top: 100vh;
+  margin-top: 84vh;
+  height: 130vh;
 }
 
 .card-container {
   display: flex;
+  padding: 0 4rem;
 }
 
 .card-item {
-  width: 834px;
-  height: 530px;
-  background-color: bisque;
-  border: 2px solid black;
+  width: 663px;
+  height: 830px;
   margin: 0 2rem 0 0;
+}
+
+.aktuellt-header {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-button {
+  font-size: 24px;
+  font-weight: bold;
+  width: auto;
+  padding: 1rem 2rem;
+}
+
+p {
+  margin: 0;
+}
+.card-item img {
+  max-height: 753px;
+  max-width: 508px;
+  margin-bottom: 1.5rem;
+}
+
+.kommande {
+  background-color: #ff5959;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 5rem;
+}
+
+.kommande-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kommande-item {
+  width: 432px;
+}
+
+.kommande-item img {
+  max-width: 100%;
+  max-height: 272px;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 16px;
+  margin: 0;
 }
