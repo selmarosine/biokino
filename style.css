@@ -73,6 +73,21 @@ h4 {
 h6 {
   font-size: 32px;
   margin: 0;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+h1,
+h4,
+h6 {
+  letter-spacing: 0.1rem;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 16px;
+  margin: 0;
 }
 
 button {
@@ -95,11 +110,17 @@ button {
 .card-container {
   display: flex;
   padding: 0 4rem;
+  flex-wrap: nowrap; /* Add this line */
+  overflow-x: auto; /* Add this line */
+  scrollbar-width: none;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }
 
 .card-item {
   width: 663px;
-  height: 830px;
   margin: 0 2rem 0 0;
 }
 
@@ -125,10 +146,6 @@ button {
   width: auto;
   padding: 1rem 2rem;
 }
-
-p {
-  margin: 0;
-}
 .card-item img {
   max-height: 753px;
   max-width: 508px;
@@ -143,13 +160,22 @@ p {
   padding: 4rem 5rem;
 }
 
+.kommande-header {
+  margin-bottom: 4rem;
+}
+
 .kommande-grid {
   display: flex;
   flex-wrap: wrap;
+  gap: 26px;
 }
 
 .kommande-item {
   width: 432px;
+}
+
+.kommande-item p {
+  max-width: 385px;
 }
 
 .kommande-item img {
@@ -157,10 +183,17 @@ p {
   max-height: 272px;
 }
 
-p {
-  font-family: "Manrope", sans-serif;
-  font-weight: 400;
-  line-height: 1.2;
-  font-size: 16px;
-  margin: 0;
+.kommande-item h6 {
+  max-width: 22rem;
+}
+
+.image-frame {
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  height: 277px;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  background-image: url("assets/lost-highway.jpg"); /* Replace 'path_to_your_image' with the actual path to your image */
+  background-size: cover; /* Add this line */
+  background-position: center; /* Add this line */
 }
