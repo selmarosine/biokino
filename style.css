@@ -164,3 +164,54 @@ p {
   font-size: 16px;
   margin: 0;
 }
+
+
+
+/*************** DETALJSIDORNA ****************/
+.detail-container {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+    padding:20px;
+}
+
+.con-left {
+    width:55%;
+    background-color: #FFCD4B;
+}
+
+.con-right {
+    width:33%;
+    background-color: #6A2C70;
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testss {
+    font-size: 2em;
+}
+
+.available-times {
+    background-color: #fff;
+    padding:5px;
+    width:70%;
+}
+
+.times {
+    background-color: gray;
+    color:black;
+}
+
+.boka {
+    margin-top:15px;
+    border: 2px solid black;
+    font-size:1.2em;
+}
+
+@media (max-width:550px) {
+
+}
