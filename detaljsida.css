@@ -7,6 +7,10 @@
     padding:20px;
 }
 
+h5 {
+    cursor: pointer;
+}
+
 .con-left {
     width:55%;
     background-color: #FFCD4B;
@@ -25,11 +29,11 @@
     height: auto;
 }
 
-.about-movie {
+.movie-hero-info {
     background-color: green;
 }
 
-.about-movie h2 {
+.movie-hero-info h2 {
     font-size: 30px; /*selma*/
 }
 
