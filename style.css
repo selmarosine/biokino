@@ -108,7 +108,7 @@ button {
 .aktuellt {
   position: relative;
   background-color: #5d59ff;
-  width: 100vw;
+  width: 100%;
   margin-top: 84vh;
   height: 130vh;
 }
@@ -116,13 +116,14 @@ button {
 .card-container {
   display: flex;
   padding: 0 4rem;
-  flex-wrap: nowrap; /* Add this line */
-  overflow-x: auto; /* Add this line */
+  flex-wrap: nowrap;
+  overflow-x: auto;
   scrollbar-width: none;
+  white-space: nowrap;
 }
 
 .card-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+  display: none;
 }
 
 .card-item {
@@ -153,12 +154,6 @@ button {
   padding: 1rem 2rem;
 }
 
-/* .card-item img {
-  width: 500px;
-  height: 750px;
-  margin-bottom: 1.5rem;
-} */
-
 .card-item img {
   width: 450px;
   height: 675px;
@@ -184,7 +179,7 @@ button {
 }
 
 .kommande-item {
-  width: 432px;
+  width: 428px;
 }
 
 .kommande-item p {
@@ -334,7 +329,6 @@ DETALJSIDA
 
 */
 
-
 /*************** DETALJSIDORNA ****************/
 .detail-container {
   background-color: pink;
@@ -382,4 +376,3 @@ DETALJSIDA
 
 @media (max-width: 550px) {
 }
-
