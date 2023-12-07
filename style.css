@@ -334,6 +334,7 @@ DETALJSIDA
 
 */
 
+
 /*************** DETALJSIDORNA ****************/
 .detail-container {
   background-color: pink;
@@ -381,3 +382,4 @@ DETALJSIDA
 
 @media (max-width: 550px) {
 }
+
