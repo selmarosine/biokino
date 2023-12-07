@@ -125,10 +125,34 @@ h5 {
 
     .movie-hero-info {
         width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .movie-hero-info h2 {
         text-align: center;
+    }
+
+    .movie-info {
+        width:100%;
+        padding: 20px;
+        margin-top: -5%;
+    }
+
+    .boka-button {
+        width:120px;
+        height:45px;
+        border: 2px solid white;
+        border-radius: 66px;
+        margin-top:5%;
+        margin-bottom: 3%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .con-right {
