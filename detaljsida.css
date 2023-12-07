@@ -1,16 +1,27 @@
 /*************** DETALJSIDORNA ****************/
 @media (min-width:751px) {
     .wes-anderson {
-        width: auto;
-        height: 662px;
+        width:54.03vh;
+        height: 80vh; /*662px, för alla inre containrar*/
       }
       
       .movie-hero-info {
         background-color: green;
         width:40vh;
-        height: 662px;
+        height: 80vh;
         text-align: center;
         position: relative;
+      }
+
+      .desktop-title {
+        display: block;
+        font-size: 7vh;
+        color: white;
+        text-align: left;
+        padding:1vh;
+        margin-top: 0;
+        margin-bottom: 0;
+        top:0;
       }
 
       .mobile-title {
@@ -69,10 +80,6 @@
   text-align: center;
 }
 
-.movie-hero-info h2 {
-  font-size: 30px; /*selma*/
-}
-
 /*STYLE TILL KLICKBARA RUBRIKER, TILLHÖR JS*/
 #movie-details {
   display: flex;
@@ -118,7 +125,7 @@ h5 {
 
 .calender {
     background-color: antiquewhite;
-    height:662px;
+    height:80vh;
     width: 80%;
     position: relative;
 
