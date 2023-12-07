@@ -319,18 +319,18 @@ STARTSIDA
 -footer               Selma
 
 DETALJSIDA
--hero med namn, bild från filmen
--knapp för att boka biljett
+-hero med namn, bild från filmen      DONE
+-knapp för att boka biljett           DONE
 -info om filmen
 -bilder från filmen
--vilka datum man kan se den
+-vilka datum man kan se den           SEMI
 -vilka skådespelare som medverkar
 -footer
 
 */
 
 /*************** DETALJSIDORNA ****************/
-.detail-container {
+/*.detail-container {
   background-color: pink;
   display: flex;
   justify-content: space-evenly;
@@ -375,4 +375,4 @@ DETALJSIDA
 }
 
 @media (max-width: 550px) {
-}
+}*/
