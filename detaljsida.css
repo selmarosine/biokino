@@ -1,170 +1,211 @@
 /*************** DETALJSIDORNA ****************/
-.detail-container {
-    display: flex;
-    justify-content: space-around;
+@media (min-width:751px) {
+    .wes-anderson {
+        width: auto;
+        height: 662px;
+      }
+      
+      .movie-hero-info {
+        background-color: green;
+        width:40vh;
+        height: 662px;
+        text-align: center;
+      }
 
-    gap:0;
-    padding:20px;
-    height:auto;
+      .mobile-title {
+        display: none;
+      }
+}
+
+.detail-container {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 0;
+  padding: 20px;
+  height: auto;
 }
 
 .con-left {
-    width:70%;
-    background-color: #FF857A;
-    font-family: "Sometype Mono", monospace;
-    padding:20px;
+  width: 70%;
+  background-color: #ff857a;
+  font-family: "Sometype Mono", monospace;
+  padding: 20px;
 
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.movie-hero {
-    
-}
-
-.wes-anderson {
-    width:45vh;
-    height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .movie-hero-info {
-    background-color: green;
+  background-color: green;
+  text-align: center;
 }
 
 .movie-hero-info h2 {
-    font-size: 30px; /*selma*/
+  font-size: 30px; /*selma*/
 }
 
 /*STYLE TILL KLICKBARA RUBRIKER, TILLHÖR JS*/
 #movie-details {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .movie-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#about-content, #actors-content, #images-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#about-content,
+#actors-content,
+#images-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    margin-top: 20px;
-    text-align: center;
-    background-color: lightgreen;
+  margin-top: 20px;
+  text-align: center;
+  background-color: lightgreen;
 }
 
 h5 {
-    cursor: pointer;
-    margin-bottom: 0;
+  cursor: pointer;
+  margin-bottom: 0;
 }
 
+.movie-details-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    bottom:0;
+}
+
+.boka-button {
+  width: 139px;
+  height: 52px;
+  border: 2px solid white;
+  border-radius: 66px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*RIGHT CONTAINER*/
 .con-right {
-    width:30%;
-    background-color: #FFD4C9;
+  width: 30%;
+  background-color: #ffd4c9;
 
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 .testss {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .available-times {
-    padding:5px;
-    width:70%;
+  padding: 5px;
+  width: 70%;
 }
 
 .times {
-    background-color: gray;
-    color:black;
+  background-color: gray;
+  color: black;
 }
 
 .boka {
-    margin-top:15px;
-    border: 2px solid black;
-    font-size:1.2em;
+  margin-top: 15px;
+  border: 2px solid black;
+  font-size: 1.2em;
 }
 
-@media (max-width:750px) {
-    .detail-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 750px) {
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .con-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  .con-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-        width:100%;
-        margin-bottom: 4%;
-    }
+    width: 100%;
+    margin-bottom: 4%;
+  }
 
-    .movie-hero {
-        width:50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .movie-hero {
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        margin-bottom:4%;
-    }
+    margin-bottom: 4%;
+  }
 
-    .movie-hero-info {
-        width: 100%;
+  .wes-anderson {
+    width: 60vw;
+    height: auto;
+  }
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+  .desktop-title {
+    display: none;
+  }
 
-    .movie-hero-info h2 {
-        text-align: center;
-    }
+  .movie-hero-info {
+    width: 100%;
 
-    .movie-info {
-        width:100%;
-        padding: 20px;
-        margin-top: -5%;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    .boka-button {
-        width:120px;
-        height:45px;
-        border: 2px solid white;
-        border-radius: 66px;
-        margin-top:5%;
-        margin-bottom: 3%;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .movie-hero-info h2 {
+    text-align: center;
+  }
 
-    .con-right {
-        width:60%;
-    }
+  .movie-info {
+    width: 100%;
+    padding: 20px;
+    margin-top: -5%;
+  }
 
-    .testss {
-        margin-top: 8px;
-        margin-bottom:5px;
-    }
+  .boka-button {
+    width: 120px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 66px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .con-right {
+    width: 60%;
+  }
+
+  .testss {
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
 }
-
 
 /*
 responsivitet,
