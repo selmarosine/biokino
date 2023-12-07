@@ -10,10 +10,37 @@
         width:40vh;
         height: 662px;
         text-align: center;
+        position: relative;
       }
 
       .mobile-title {
         display: none;
+      }
+
+      .movie-details-bottom {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    
+        position: absolute;
+        bottom:0;
+        right: 0;
+    }
+
+      .boka-button {
+        width: 139px;
+        height: 52px;
+        border: 2px solid white;
+        border-radius: 66px;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        cursor: pointer;
+        bottom:0;
+        right:0;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 }
 
@@ -77,32 +104,11 @@ h5 {
   margin-bottom: 0;
 }
 
-.movie-details-bottom {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    bottom:0;
-}
-
-.boka-button {
-  width: 139px;
-  height: 52px;
-  border: 2px solid white;
-  border-radius: 66px;
-  margin-top: 5%;
-  margin-bottom: 3%;
-  cursor: pointer;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /*RIGHT CONTAINER*/
 .con-right {
   width: 30%;
   background-color: #ffd4c9;
+  padding:20px;
 
   display: flex;
   justify-content: flex-start;
@@ -110,9 +116,60 @@ h5 {
   flex-direction: column;
 }
 
-.testss {
-  font-size: 2em;
+.calender {
+    background-color: antiquewhite;
+    height:662px;
+    width: 80%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
+
+.day-month { /*selma, lägg vänster*/
+    background-color: aliceblue;
+    color:black;
+}
+
+.cal-both {
+    display: flex;
+    justify-content: center;
+
+    gap:5vw;
+    color:black;
+}
+
+.cal-left {
+    background-color: lightblue;
+}
+
+.cal-left p, .cal-right p {
+    font-size: 1vw;
+}
+
+.cal-right {
+    background-color: lightgreen;
+}
+
+.kalendarium {
+    color:black;
+}
+
+.more-dates {
+    color:black;
+    font-family: "Manrope", sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+  }
+
+/*.testss {
+  font-size: 2em;
+  font-family: "Manrope", sans-serif;
+  color: black;
+}*/
 
 .available-times {
   padding: 5px;
@@ -191,6 +248,7 @@ h5 {
     border-radius: 66px;
     margin-top: 5%;
     margin-bottom: 3%;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
@@ -201,10 +259,10 @@ h5 {
     width: 60%;
   }
 
-  .testss {
+  /*.testss {
     margin-top: 8px;
     margin-bottom: 5px;
-  }
+  }*/
 }
 
 /*
