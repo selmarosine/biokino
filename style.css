@@ -256,6 +256,16 @@ footer input[type="text"] {
   box-sizing: border-box;
 }
 
+.erbjudande {
+  padding: 3rem 12rem;
+  background-color: #252525;
+  text-align: center;
+}
+
+.erbjudande h6 {
+  font-weight: 300;
+}
+
 @media (max-width: 1050px) {
   h1 {
     font-size: 64px;
