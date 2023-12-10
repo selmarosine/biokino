@@ -169,7 +169,7 @@ h5 {
     font-family: "Manrope", sans-serif;
     position: absolute;
     bottom: 0;
-    margin-bottom: 3%;
+    height: 48px;
   }
 
 /*.testss {
@@ -273,7 +273,7 @@ h5 {
 }
 
 /*
-responsivitet,
+responsivitet, (kalender-kolumnens höjd och innehåll ändras ej)
 footer, 
 burger,
 about-actors-images
