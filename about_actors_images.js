@@ -16,3 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.about-info').classList.add('active');
   });
+
+
+/** FÖR ATT FÖRSTORA DE SMÅ BILDERNA **/
+function toggleImageSize(clickedImage) {
+    const bigImagesContainer = document.querySelector('.big-images-container');
+    const bigImage = document.getElementById('bigImage');
+
+    if (clickedImage && clickedImage.src) {
+      bigImage.src = clickedImage.src;
+    }
+
+    bigImagesContainer.classList.toggle('active');
+  }
