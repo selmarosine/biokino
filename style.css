@@ -15,6 +15,26 @@ body {
   width: 100%;
 }
 
+a:link {
+  text-decoration: none;
+  color: #252525;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #252525;
+}
+
+a:hover { /*kanske lägga till nåt fräsigt här sen*/
+  text-decoration: none;
+  color:#555555;
+}
+
+a:active {
+  text-decoration: none;
+  color:#252525;
+}
+
 .hero {
   position: absolute;
   top: 0;
