@@ -123,6 +123,7 @@ button {
   padding: 1rem;
   width: 180px;
   border-radius: 200px;
+  cursor: pointer;
 }
 
 .aktuellt {
@@ -270,6 +271,10 @@ footer h6 {
   font-weight: 400;
 }
 
+.footer-links-mobile { /*selma, om biokino mid-size screen fixa*/
+  display: none;
+}
+
 footer input[type="text"] {
   width: 60%;
   padding: 0.5rem 2rem;
@@ -326,6 +331,37 @@ footer input[type="text"] {
   h1 {
     margin-bottom: 2rem;
   }
+
+
+  /** STYLE SOM GÄLLER BÅDE STARTSIDA OCH DETALJSIDA **/
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer h6 {
+    display: none;
+  }
+
+  .footer-links-mobile {
+    display: block;
+    margin-top: 5%;
+  }
+
+  .footer-links-mobile span {
+    cursor: pointer;
+  }
+
+  footer input[type="text"] {
+    margin-top: -1%;
+  } 
+
+  form p {
+    margin-top: 2%;
+  }
+
 }
 
 /* checklist ska vara med 
