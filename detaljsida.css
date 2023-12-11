@@ -431,6 +431,15 @@ h5 {
     margin-top: 8px;
     margin-bottom: 5px;
   }*/
+
+  .footer-links-mobile {
+    display: block;
+    margin-top: 5%;
+  }
+
+  .footer-links-mobile span {
+    cursor: pointer;
+  }
 }
 
 /*
