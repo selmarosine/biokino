@@ -692,7 +692,7 @@ h5 {
   .cal-left,
   .day-month,
   .cal-right p {
-    font-size: 1.1rem;
+    font-size: 4.1vw;
     color: black;
     margin-bottom: 3%;
   }
