@@ -472,7 +472,7 @@ button a {
   }
 
   .kommande {
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
 
   .kommande-item {
@@ -489,6 +489,14 @@ button a {
 
   .hero-info {
     align-items: flex-start;
+  }
+
+  .kommande-item p {
+    max-width: 100%;
+  }
+
+  nav img {
+    max-width: 3rem;
   }
 
   h1 {
@@ -527,11 +535,6 @@ button a {
   form p {
     margin-top: 2%;
   }
-
-  /* .aktuellt {
-    margin-top: 53vh;
-    height: 110vh;
-  } */
 }
 
 /* checklist ska vara med 
