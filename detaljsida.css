@@ -641,11 +641,13 @@ h5 {
   .cal-right p {
     font-size: 4vw;
     color: black;
+    margin-bottom: -3%;
   }
 
   .more-dates {
-    margin-bottom: -28%;
+    margin-bottom: -50%;
     bottom:0;
+    font-size: 3.3vw;
   }
 
   .kalendarium {
