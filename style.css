@@ -407,13 +407,17 @@ button a {
     padding: 3rem 2rem;
   }
 
-  .hero {
+  /* .hero {
     height: 70vh;
-  }
+  } */
 
-  .aktuellt {
+  /* .aktuellt {
     margin-top: 55vh;
     height: 118vh;
+  } */
+
+  .aktuellt-header {
+    padding: 2rem;
   }
 
   .hero-content {
@@ -524,10 +528,10 @@ button a {
     margin-top: 2%;
   }
 
-  .aktuellt {
+  /* .aktuellt {
     margin-top: 53vh;
     height: 110vh;
-  }
+  } */
 }
 
 /* checklist ska vara med 
