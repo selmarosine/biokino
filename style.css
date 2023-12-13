@@ -296,10 +296,11 @@ footer button {
 footer h6 {
   font-weight: 400;
   font-size: 30px;
-  margin-left:2vw;
+  margin-left: 2vw;
 }
 
-.footer-links-mobile, .hidden-about-site {
+.footer-links-mobile,
+.hidden-about-site {
   display: none;
 }
 
@@ -310,13 +311,13 @@ footer input[type="text"] {
   box-sizing: border-box;
 }
 
-@media (min-width:750px) and (max-width:966px) {
+@media (min-width: 750px) and (max-width: 966px) {
   footer div h6 {
     display: flex;
     flex-direction: column;
   }
 
-  footer h6 { 
+  footer h6 {
     font-weight: 400;
     font-size: 30px;
   }
@@ -330,21 +331,19 @@ footer input[type="text"] {
   }
 }
 
-/**/
-
 .erbjudande {
+  position: relative;
   padding: 3rem 18rem;
   background-color: var(--yellow);
   text-align: center;
-  animation: colorChange 10s infinite;
+  animation: colorChange 8s infinite;
 }
 
 .erbjudande-star {
-  left: 60px;
-  top: 1838px;
-  width: 200px;
-  position: static;
   position: absolute;
+  left: 60px;
+  top: -50px;
+  width: 200px;
 }
 
 .erbjudande h6 {
@@ -358,14 +357,14 @@ button a {
 
 @keyframes colorChange {
   0% {
-    background-color: var(--yellow); /* existing purple color */
+    background-color: var(--yellow);
   }
-  33% {
-    background-color: var(--pink); /* and another color */
+  50% {
+    background-color: var(--pinkSoft);
   }
 
   100% {
-    background-color: var(--yellow); /* and another color */
+    background-color: var(--yellow);
   }
 }
 
@@ -424,9 +423,11 @@ button a {
   .kommande-item {
     width: 80%;
   }
+
   .kommande-item p {
     max-width: 80%;
   }
+
   .kommande-item h6 {
     max-width: 100%;
   }
@@ -439,8 +440,9 @@ button a {
   }
 
   .erbjudande-star {
-    top: 1500px;
-    width: 200px;
+    top: 27px;
+    left: 30px;
+    width: 175px;
   }
 }
 
