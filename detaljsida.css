@@ -689,6 +689,14 @@ h5 {
     margin-top:8%;
   }
 
+  .cal-left,
+  .day-month,
+  .cal-right p {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 3%;
+  }
+
   .more-dates {
     margin-bottom: -0.5rem;
   }
