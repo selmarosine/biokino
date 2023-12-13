@@ -534,6 +534,12 @@ h5 {
     margin-bottom: 4%;
   }
 
+  .mobile-title {
+    display: block;
+    font-size: 3.5vw;
+    font-family: "Manrope", sans-serif;
+  }
+
   .movie-hero {
     width: 50vh;
     display: flex;
