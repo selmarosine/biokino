@@ -56,11 +56,10 @@
     height: auto;
   }
 
-  /*här*/
   .day-month h2,
   .cal-right p {
     font-size: 1.2vw;
-    color: black;
+    color: var(--black);
   }
 }
 
@@ -72,7 +71,6 @@
   .wes-anderson {
     width: 100%;
     height: auto;
-    /*height: 80vh; /*662px, för alla inre containrar*/
   }
 
   .movie-hero-info {
@@ -133,7 +131,7 @@
   .day-month,
   .cal-right p {
     font-size: 1.5vw;
-    color: black;
+    color: var(--black);
     margin-top: 18%;
   }
 }
@@ -166,7 +164,7 @@
   .day-month h2,
   .cal-right p {
     font-size: 1.2vw;
-    color: black;
+    color: var(--black);
   }
 }
 
@@ -216,11 +214,10 @@
     height: auto;
   }
 
-  /*här asteroid*/
   .day-month,
   .cal-right p {
     font-size: 1.2vw;
-    color: black;
+    color: var(--black);
   }
 
   .kalendarium {
@@ -282,11 +279,10 @@ h2 {
 
 .con-left {
   width: 70%;
-  background-color: #ff857a;
+  background-color: var(--pinkBold);
   font-family: "Sometype Mono", monospace;
   padding: 3vw;
   gap: 2vw;
-  /*padding: 4rem 2rem; hugo här 2*/
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -386,7 +382,7 @@ h5 {
 /*RIGHT CONTAINER*/
 .con-right {
   width: 30%;
-  background-color: #ffd4c9;
+  background-color: var(--pinkSoft);
   padding: 20px;
 
   display: flex;
@@ -418,7 +414,7 @@ h5 {
 
   position: relative;
   gap: 5vw;
-  color: black;
+  color: var(--black);
   margin-bottom: 5.5%;
   margin-top: 4%;
 }
@@ -429,7 +425,7 @@ h5 {
 }
 
 .kalendarium-film {
-  color: black;
+  color: var(--black);
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   font-size: 2vh;
@@ -438,7 +434,7 @@ h5 {
 }
 
 .more-dates {
-  color: black;
+  color: var(--black);
   font-family: "Manrope", sans-serif;
   position: absolute;
   bottom: 0;
@@ -456,10 +452,10 @@ h5 {
   width: 70%;
 }
 
-.times {
+/*.times {
   background-color: gray;
   color: black;
-}
+}*/
 
 /*.boka {
   margin-top: 15px;
