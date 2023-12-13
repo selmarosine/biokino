@@ -23,13 +23,16 @@
   .boka-button {
     width: 139px;
     height: 52px;
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 66px;
     margin-top: 5%;
     margin-bottom: 3%;
     cursor: pointer;
     bottom: 0;
     right: 0;
+    font-family: "Sometype mono", monospace;
+    font-weight: 600;
+    font-size: 2.5vh;
 
     display: flex;
     justify-content: center;
