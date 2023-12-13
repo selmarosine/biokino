@@ -57,7 +57,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5rem 8rem;
+  padding: 5rem 4rem;
 }
 
 .hero-title {
@@ -110,6 +110,10 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
+.aktuellt-h {
+  font-size: 40px;
+}
+
 .kommande-header > h6 {
   text-align: center;
 }
@@ -141,8 +145,9 @@ button {
   position: relative;
   background-color: #5d59ff;
   width: 100%;
-  margin-top: 85vh;
+  margin-top: 83vh;
   padding: 0rem 0rem 5rem 0rem;
+  animation: colorChange 30s infinite;
 }
 
 .card-container {
@@ -296,7 +301,7 @@ footer input[type="text"] {
 }
 
 .erbjudande {
-  padding: 3rem 12rem;
+  padding: 3rem 16rem;
   background-color: #252525;
   text-align: center;
 }
@@ -305,9 +310,19 @@ footer input[type="text"] {
   font-weight: 300;
 }
 
-@media (max-width: 1510px) {
-  .kommande {
-    padding: 0rem 2rem;
+button a {
+  font-size: 32px;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #5d59ff; /* existing purple color */
+  }
+  50% {
+    background-color: #ff5959; /* some other color */
+  }
+  100% {
+    background-color: #5d59ff; /* and another color */
   }
 }
 
@@ -321,12 +336,20 @@ footer input[type="text"] {
   }
 
   button {
-    padding: 0.5rem 1rem;
+    padding: 0rem 1.5rem;
     width: auto;
+  }
+
+  button a {
+    font-size: 24px;
   }
 
   header {
     padding: 1.7rem 2.5rem;
+  }
+
+  .erbjudande {
+    padding: 3rem 5rem;
   }
 
   .card-container {
@@ -347,8 +370,8 @@ footer input[type="text"] {
   }
 
   .aktuellt {
-    margin-top: 60vh;
-    height: 75vh;
+    margin-top: 55vh;
+    height: 118vh;
   }
 
   .hero-content {
@@ -370,14 +393,28 @@ footer input[type="text"] {
 }
 
 @media (max-width: 750px) {
+  .aktuellt-h {
+    font-size: 32px;
+  }
+
+  .logo {
+    max-width: 9rem;
+  }
+
   .erbjudande {
     padding: 3rem 2rem;
   }
+
   .hero-content {
     padding: 0rem 0rem 1rem 2rem;
   }
+
   .kommande {
-    padding: 0rem 0rem;
+    padding: 2rem 1rem;
+  }
+
+  .kommande-header {
+    margin-bottom: 2rem;
   }
   .hero-content {
     flex-direction: column;
@@ -425,7 +462,8 @@ footer input[type="text"] {
   }
 
   .aktuellt {
-    margin-top: 91vh;
+    margin-top: 53vh;
+    height: 110vh;
   }
 }
 
