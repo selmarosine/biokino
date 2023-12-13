@@ -450,6 +450,7 @@ button a {
   .erbjudande-star {
     display: none;
   }
+
   .aktuellt-h {
     font-size: 32px;
   }
@@ -467,12 +468,17 @@ button a {
   }
 
   .kommande {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
+  }
+
+  .kommande-item {
+    width: 100%;
   }
 
   .kommande-header {
     margin-bottom: 2rem;
   }
+
   .hero-content {
     flex-direction: column;
   }
