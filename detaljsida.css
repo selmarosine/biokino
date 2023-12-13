@@ -216,7 +216,7 @@
 
   .day-month,
   .cal-right p {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: var(--black);
   }
 
@@ -603,8 +603,8 @@ h5 {
     height: 45px;
     border: 2px solid white;
     border-radius: 66px;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin-top: 40%;
+    margin-bottom: 20%;
     cursor: pointer;
     font-family: "Sometype Mono", monospace;
     font-size: 1.2em;
@@ -632,8 +632,13 @@ h5 {
   .cal-left,
   .day-month,
   .cal-right p {
-    font-size: 2.3vw;
+    font-size: 3vw;
     color: black;
+  }
+
+  .more-dates {
+    margin-top: 15%;
+    margin-bottom: 8%;
   }
 
   .kalendarium {
