@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
 
+:root {
+  --black: #1a1a1a;
+  --pinkBold: #ff857a;
+  --pinkSoft: #ffd4c9;
+  --purple: #5d59ff;
+  --yellow: #ffcd4b;
+  --gray: #ededed;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -197,7 +206,7 @@ button {
 }
 
 .kommande {
-  background-color: #ff5959;
+  background-color: #ff857a;
   /* display: flex; */
   flex-direction: column;
   align-items: center;
@@ -301,9 +310,10 @@ footer input[type="text"] {
 }
 
 .erbjudande {
-  padding: 3rem 16rem;
-  background-color: #252525;
+  padding: 3rem 18rem;
+  background-color: var(--yellow);
   text-align: center;
+  animation: colorChange 10s infinite;
 }
 
 .erbjudande-star {
@@ -315,11 +325,25 @@ footer input[type="text"] {
 }
 
 .erbjudande h6 {
-  font-weight: 300;
+  color: var(--black);
+  font-weight: 500;
 }
 
 button a {
   font-size: 32px;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: var(--yellow); /* existing purple color */
+  }
+  33% {
+    background-color: var(--pinkSoft); /* and another color */
+  }
+
+  100% {
+    background-color: var(--yellow); /* and another color */
+  }
 }
 
 @media (max-width: 1050px) {
