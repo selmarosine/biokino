@@ -682,7 +682,7 @@ h5 {
 
   .calender {
     width: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
   }
 
   .cal-left, .cal-right {
@@ -698,7 +698,8 @@ h5 {
   }
 
   .more-dates {
-    margin-bottom: -0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
   }
 
   .kalendarium-film {
