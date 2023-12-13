@@ -136,8 +136,8 @@ button {
   position: relative;
   background-color: #5d59ff;
   width: 100%;
-  margin-top: 87vh;
-  height: 100vh;
+  margin-top: 85vh;
+  height: 125vh;
 }
 
 .card-container {
@@ -365,6 +365,9 @@ footer input[type="text"] {
 }
 
 @media (max-width: 750px) {
+  .erbjudande {
+    padding: 3rem 2rem;
+  }
   .hero-content {
     padding: 0rem 0rem 1rem 2rem;
   }
