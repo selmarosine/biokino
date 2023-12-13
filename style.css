@@ -295,10 +295,11 @@ footer button {
 
 footer h6 {
   font-weight: 400;
+  font-size: 30px;
+  margin-left:2vw;
 }
 
-.footer-links-mobile {
-  /*selma, om biokino mid-size screen fixa*/
+.footer-links-mobile, .hidden-about-site {
   display: none;
 }
 
@@ -308,6 +309,28 @@ footer input[type="text"] {
   margin: 8px 0;
   box-sizing: border-box;
 }
+
+@media (min-width:750px) and (max-width:966px) {
+  footer div h6 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer h6 { 
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .hidden-about-site {
+    display: block;
+  }
+
+  .desktop-about-site {
+    display: none;
+  }
+}
+
+/**/
 
 .erbjudande {
   padding: 3rem 18rem;
@@ -517,9 +540,6 @@ DETALJSIDA
 -vilka datum man kan se den           DONE
 -vilka skådespelare som medverkar     DONE
 -footer                               SEMI 
-
-Selmas problem:
--Responsivitet
 
 */
 
