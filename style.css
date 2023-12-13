@@ -114,6 +114,11 @@ h6 {
   text-align: center;
 }
 
+.kommande-date {
+  font-family: "Sometype Mono", monospace;
+  font-size: 24px;
+}
+
 p {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -136,8 +141,8 @@ button {
   position: relative;
   background-color: #5d59ff;
   width: 100%;
-  margin-top: 87vh;
-  height: 100vh;
+  margin-top: 85vh;
+  padding: 0rem 0rem 5rem 0rem;
 }
 
 .card-container {
@@ -365,6 +370,9 @@ footer input[type="text"] {
 }
 
 @media (max-width: 750px) {
+  .erbjudande {
+    padding: 3rem 2rem;
+  }
   .hero-content {
     padding: 0rem 0rem 1rem 2rem;
   }
@@ -396,7 +404,7 @@ footer input[type="text"] {
   }
 
   .aktuellt-header {
-    padding: 2rem 0;
+    padding: 3rem 0rem 2rem 0rem;
   }
 
   .footer-links-mobile {
