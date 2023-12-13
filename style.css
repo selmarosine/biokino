@@ -338,7 +338,7 @@ button a {
     background-color: var(--yellow); /* existing purple color */
   }
   33% {
-    background-color: var(--pinkSoft); /* and another color */
+    background-color: var(--pink); /* and another color */
   }
 
   100% {
