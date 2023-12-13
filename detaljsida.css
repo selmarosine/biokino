@@ -44,6 +44,14 @@
   .calender {
     height:auto;
   }
+
+  /*här*/
+  .day-month h2,
+  .cal-right p {
+    font-size: 1.2vw;
+    color: black;
+  }
+  
 }
 
 @media (min-width: 751px) and (max-width: 983px) {
@@ -60,15 +68,23 @@
     position: relative;
   }
 
+  .about, .actors, .images {
+    font-size: 1.5vh;
+  }
+
   .clickable-tags {
-    font-size: 1vh;
-    gap: 4%;
+    gap: 3%;
+  }
+
+  .p-omfilmen {
+    font-size: 1.7vw;
+    line-height: 150%;
   }
 
   .desktop-title {
     font-family: "Sometype mono", monospace;
     display: block;
-    font-size: 6vh;
+    font-size: 4vh;
     color: white;
     text-align: left;
     padding: 1vh;
@@ -84,19 +100,26 @@
     font-size: 1.2em;
   }
 
-  /*.cal-left p,
-  .cal-right p {
-    font-size: 1.5vw;
-  }*/
-
   .mini-images {
     width: 14vh;
     height: auto;
   }
 
+  .kalendarium {
+    font-size:2.5vh;
+  }
+
   .calender {
     height:auto;
   }
+
+   /*här*/
+   .day-month,
+   .cal-right p {
+     font-size: 1.8vw;
+     color: black;
+     margin-top: 18%;;
+   }
 }
 
 @media (min-width: 983px) and (max-width: 1100px) {
@@ -109,6 +132,13 @@
     width: 14vh;
     height: auto;
   }
+
+  /*här*/
+  .day-month h2,
+  .cal-right p {
+    font-size: 1.2vw;
+    color: black;
+  }
 }
 
 @media (min-width:1100px) {
@@ -117,18 +147,37 @@
     height: 80vh;
   }
 
+  .about, .actors, .images {
+    font-size: 1.5vh;
+  }
+
+  .p-omfilmen {
+    font-size: 2vh;
+    line-height: 150%;
+  }
+
   .mini-images {
     width: 20vh;
     height: auto;
   }
+
+  /*här asteroid*/
+  .day-month,
+  .cal-right p {
+    font-size: 1.2vw;
+    color: black;
+  }
+
+  .kalendarium {
+    font-size: 3.8vh;
+  }
+
+  .desktop-title {
+    font-size: 3.8vh;
+  }
 }
 
 @media (min-width: 983px) {
-  /*.wes-anderson {
-    width: 43vh; /*54.03vh;*/
-    /*height: auto/*80vh; /*662px, för alla inre containrar
-  }*/
-
   .movie-hero-info {
     width: 40vh;
     height: 80vh;
@@ -158,11 +207,6 @@
   .clickable-tags {
     font-size: 1.15vh;
   }
-
-  /*.cal-left p,
-  .cal-right p {
-    font-size: 1vw;
-  }*/
 }
 
 h2 {
@@ -207,15 +251,6 @@ h2 {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-}
-
-.about, .actors, .images {
-  font-size: 1.7vh;
-}
-
-.p-omfilmen {
-  font-size: 2vh;
-  line-height: 150%;
 }
 
 .about-info,
@@ -319,10 +354,10 @@ h5 {
 }
 
 .day-month {
-  font-size: 26px;
+  /*font-size: 26px;*/
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  color: black;
+  /*color: black;*/
   font-family: "Manrope", sans-serif;
   /*hugo: 
   font-size: 26px;
@@ -344,7 +379,6 @@ h5 {
 .kalendarium {
   color: black;
   font-family: "Sometype Mono", monospace;
-  font-size: 3.8vh;
 }
 
 .kalendarium-film {
@@ -495,6 +529,11 @@ h5 {
     padding: 1.5vh;
   }
 
+  .p-omfilmen {
+    font-size: 2vh;
+    line-height: 150%;
+  }
+
   .mini-images {
     width: 14vh;
     height: auto;
@@ -539,6 +578,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     gap: 10vh;
+    margin-bottom: -1%;
   }
 
   .cal-left,
@@ -548,11 +588,15 @@ h5 {
     color: black;
   }
 
+  .kalendarium {
+    font-size: 3vw;
+  }
+
   .kalendarium-film {
     font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 2.5vh;
-    margin-top: -3%;
+    font-size: 2.1vh;
+    margin-top: 1%;
     margin-bottom: 6%;
   }
 
