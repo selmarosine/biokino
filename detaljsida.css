@@ -662,3 +662,11 @@ h5 {
     cursor: pointer;
   }
 }
+
+@media (max-width: 400px) {
+  .clickable-tags {
+    font-size: 2vw;
+    justify-content: space-between;
+    font-family: "Manrope", sans-serif;
+  }
+}
