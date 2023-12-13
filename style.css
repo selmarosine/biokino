@@ -147,7 +147,6 @@ button {
   width: 100%;
   margin-top: 83vh;
   padding: 0rem 0rem 5rem 0rem;
-  animation: colorChange 30s infinite;
 }
 
 .card-container {
@@ -231,6 +230,7 @@ button {
 
 .kommande-item h6 {
   max-width: 22rem;
+  margin-bottom: 5px;
 }
 
 .image-frame {
@@ -306,24 +306,20 @@ footer input[type="text"] {
   text-align: center;
 }
 
+.erbjudande-star {
+  left: 60px;
+  top: 1838px;
+  width: 200px;
+  position: static;
+  position: absolute;
+}
+
 .erbjudande h6 {
   font-weight: 300;
 }
 
 button a {
   font-size: 32px;
-}
-
-@keyframes colorChange {
-  0% {
-    background-color: #5d59ff; /* existing purple color */
-  }
-  50% {
-    background-color: #ff5959; /* some other color */
-  }
-  100% {
-    background-color: #5d59ff; /* and another color */
-  }
 }
 
 @media (max-width: 1050px) {
@@ -390,9 +386,21 @@ button a {
   h6 {
     letter-spacing: normal;
   }
+
+  .erbjudande {
+    padding: 3rem 16rem;
+  }
+
+  .erbjudande-star {
+    top: 1500px;
+    width: 200px;
+  }
 }
 
 @media (max-width: 750px) {
+  .erbjudande-star {
+    display: none;
+  }
   .aktuellt-h {
     font-size: 32px;
   }
