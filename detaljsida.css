@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
 
 /*************** DETALJSIDORNA ****************/
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
 @media (min-width: 751px) {
   .mobile-title {
     display: none;
@@ -32,9 +35,18 @@
     justify-content: center;
     align-items: center;
   }
+
+  .mini-images {
+    width: 14vh;
+    height: auto;
+  }
+
+  .calender {
+    height:auto;
+  }
 }
 
-@media (min-width: 751px) and (max-width: 982px) {
+@media (min-width: 751px) and (max-width: 983px) {
   .wes-anderson {
     width: 100%;
     height: auto;
@@ -54,6 +66,7 @@
   }
 
   .desktop-title {
+    font-family: "Sometype mono", monospace;
     display: block;
     font-size: 6vh;
     color: white;
@@ -67,34 +80,77 @@
   .boka-button {
     width: 110px;
     height: 45px;
+    font-family: "Sometype Mono", monospace;
+    font-size: 1.2em;
   }
 
-  .cal-left p,
+  /*.cal-left p,
   .cal-right p {
     font-size: 1.5vw;
+  }*/
+
+  .mini-images {
+    width: 14vh;
+    height: auto;
+  }
+
+  .calender {
+    height:auto;
+  }
+}
+
+@media (min-width: 983px) and (max-width: 1100px) {
+  .wes-anderson {
+    width: 42vh;
+    height: auto;
+  }
+
+  .mini-images {
+    width: 14vh;
+    height: auto;
+  }
+}
+
+@media (min-width:1100px) {
+  .wes-anderson {
+    width: 54.03vh;
+    height: 80vh;
+  }
+
+  .mini-images {
+    width: 20vh;
+    height: auto;
   }
 }
 
 @media (min-width: 983px) {
-  .wes-anderson {
-    width: 54.03vh;
-    height: 80vh; /*662px, för alla inre containrar*/
-  }
+  /*.wes-anderson {
+    width: 43vh; /*54.03vh;*/
+    /*height: auto/*80vh; /*662px, för alla inre containrar
+  }*/
 
   .movie-hero-info {
     width: 40vh;
     height: 80vh;
+    margin-left:-2%;
     text-align: center;
     position: relative;
   }
 
+  .mini-images {
+    width: 16vh;
+    height: auto;
+  }
+
   .desktop-title {
+    font-family: "Sometype mono", monospace;
+    letter-spacing: 5.5%;
     display: block;
     font-size: 7vh;
     color: white;
     text-align: left;
     padding: 1vh;
-    margin-top: 0;
+    margin-top: -5%;
     margin-bottom: 0;
     top: 0;
   }
@@ -103,10 +159,10 @@
     font-size: 1.15vh;
   }
 
-  .cal-left p,
+  /*.cal-left p,
   .cal-right p {
     font-size: 1vw;
-  }
+  }*/
 }
 
 h2 {
@@ -121,7 +177,8 @@ h2 {
   margin-top: -2.3%;
   margin-bottom: 1%;
   gap: 0;
-  padding: 10rem;
+  /*padding: 20px;*/
+  padding: 1.5rem; /*hugo här*/
   height: auto;
 }
 
@@ -129,8 +186,9 @@ h2 {
   width: 70%;
   background-color: #ff857a;
   font-family: "Sometype Mono", monospace;
-  padding: 4rem 2rem;
-
+  padding: 3vw;
+  gap:2vw;
+  /*padding: 4rem 2rem; hugo här 2*/
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -143,17 +201,16 @@ h2 {
 /*STYLE TILL KLICKBARA RUBRIKER, TILLHÖR JS*/
 .clickable-tags {
   cursor: pointer;
-  font-family: "Sometype Mono", monospace;
-  font-size: 1.4rem;
+  font-family: 'Manrope', sans-serif;
   display: flex;
   letter-spacing: 2px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
 }
 
 .p-omfilmen {
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 150%;
 }
 
@@ -163,25 +220,31 @@ h2 {
   padding: 2.2vh;
   text-align: left;
   font-family: "Manrope", sans-serif;
-  /* font-size: 20px; */
+  /*line-height: 150%;*/
+}
+
+.images-info {
+  margin-top:10%;
+  display: grid;
+  column-count: 2;
+  grid-gap:0px;
+  padding: 0;
   line-height: 150%;
 }
 
 .images-info {
-  /* column-count: 2; */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  margin-top:10%;
+  display: grid;
+  column-count: 2;
+  grid-gap:0px;
+  padding: 0;
 }
 
 .mini-images {
-  width: 16vh;
-  height: auto;
   margin-bottom: 2px;
   display: inline-block;
   cursor: pointer;
+  /*width: 16vh; hugo*/
 }
 
 .big-images-container {
@@ -256,6 +319,10 @@ h5 {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: black;
+  font-family: "Manrope", sans-serif;
+  /*hugo: 
+  font-size: 26px;
+  font-weight: 600;*/
 }
 
 .cal-both {
@@ -273,7 +340,7 @@ h5 {
 .kalendarium {
   color: black;
   font-family: "Sometype Mono", monospace;
-  font-size: 4vh;
+  font-size: 3.8vh;
 }
 
 .kalendarium-film {
@@ -290,7 +357,7 @@ h5 {
   font-family: "Manrope", sans-serif;
   position: absolute;
   bottom: 0;
-  height: 48px;
+  height: 12px;
 }
 
 /*.testss {
@@ -309,11 +376,11 @@ h5 {
   color: black;
 }
 
-.boka {
+/*.boka {
   margin-top: 15px;
   border: 2px solid black;
   font-size: 1.2em;
-}
+}*/
 
 /***** LANDSCAPE, MINDRE VIEWPORT *****/
 @media screen and (orientation: landscape) and (max-height: 600px) {
@@ -339,7 +406,7 @@ h5 {
     position: static;
     width: 50vh;
     height: auto;
-    padding: 2rem;
+    /*padding: 2rem; hugo*/
   }
 
   .images-info {
@@ -424,9 +491,14 @@ h5 {
     padding: 1.5vh;
   }
 
+  .mini-images {
+    width: 14vh;
+    height: auto;
+  }
+
   .movie-hero-info h2 {
     text-align: center;
-    font-size: 20px;
+    /*font-size: 20px; hugo*/
   }
 
   .movie-info {
@@ -443,6 +515,8 @@ h5 {
     margin-top: 5%;
     margin-bottom: 3%;
     cursor: pointer;
+    font-family: "Sometype Mono", monospace;
+    font-size: 1.2em;
 
     display: flex;
     justify-content: center;
@@ -466,7 +540,7 @@ h5 {
   .cal-left,
   .day-month,
   .cal-right p {
-    font-size: 3.5vw;
+    font-size: 2.3vw;
     color: black;
   }
 
@@ -477,11 +551,6 @@ h5 {
     margin-top: -3%;
     margin-bottom: 6%;
   }
-
-  /*.testss {
-    margin-top: 8px;
-    margin-bottom: 5px;
-  }*/
 
   .footer-links-mobile {
     display: block;
@@ -494,10 +563,7 @@ h5 {
 }
 
 /*
-responsivitet, (kalender-kolumnens höjd och innehåll ändras ej)
 footer, 
-burger,
-about-actors-images
 
 
 overflow:hidden, sätt värde över 100%, över viewport
