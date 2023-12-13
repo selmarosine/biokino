@@ -536,7 +536,7 @@ h5 {
 
   .mobile-title {
     display: block;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-family: "Manrope", sans-serif;
   }
 
@@ -580,7 +580,7 @@ h5 {
   }
 
   .p-omfilmen {
-    font-size: 2vh;
+    font-size: 2.3vh;
     line-height: 150%;
   }
 
@@ -610,7 +610,7 @@ h5 {
     border: 2px solid white;
     border-radius: 66px;
     margin-top: 40%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     cursor: pointer;
     font-family: "Sometype Mono", monospace;
     font-size: 1.2em;
@@ -625,7 +625,8 @@ h5 {
   }
 
   .calender {
-    width: 100%;
+    width: auto;
+    margin-bottom: 20vh;
   }
 
   .cal-both {
@@ -638,25 +639,26 @@ h5 {
   .cal-left,
   .day-month,
   .cal-right p {
-    font-size: 3vw;
+    font-size: 4vw;
     color: black;
   }
 
   .more-dates {
-    margin-top: 15%;
-    margin-bottom: 8%;
+    margin-bottom: -28%;
+    bottom:0;
   }
 
   .kalendarium {
-    font-size: 3vw;
+    font-size: 5.2vw;
+    margin-top: -1%;
   }
 
   .kalendarium-film {
     font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 2.1vh;
+    font-size: 3vh;
     margin-top: 1%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
   }
 
   .footer-links-mobile {
@@ -669,10 +671,28 @@ h5 {
   }
 }
 
-@media (max-width: 400px) {
-  .clickable-tags {
-    font-size: 2vw;
-    justify-content: space-between;
-    font-family: "Manrope", sans-serif;
+@media (max-width: 500px) {
+  .about,
+  .actors,
+  .images {
+    font-size: 2vh;
+  }
+
+  .calender {
+    width: auto;
+    margin-bottom: 5vh;
+  }
+
+  .cal-left, .cal-right {
+    margin-top:8%;
+  }
+
+  .more-dates {
+    margin-top: 15%;
+    margin-bottom: 8%;
+  }
+
+  .kalendarium-film {
+    font-size: 2.5vh;
   }
 }
